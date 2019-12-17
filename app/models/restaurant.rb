@@ -19,4 +19,5 @@ class Restaurant
       ##basically, first we find the restaurant we want to check the rating for 
       ##then we iterate through review.rating and add it up to total sum 
       ## then we divide by the array.count
+  end
 end
