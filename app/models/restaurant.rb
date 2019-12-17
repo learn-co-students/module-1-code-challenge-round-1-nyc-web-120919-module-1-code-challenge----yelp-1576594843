@@ -22,8 +22,8 @@ class Restaurant
   def average_star_rating
     review_list = self.reviews
     ratings = 0
-    review_list.map do |review|
-      ratings += review.rating
+    review_list.map do |review| # I tried using the reduce method here.
+      ratings += review.rating  # I was unsuccessful. :(
     end
     ratings_float = ratings.to_f
 
